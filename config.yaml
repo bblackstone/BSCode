@@ -1,0 +1,19 @@
+build_commands: []
+environment_variables: {}
+external_package_dirs: []
+model_metadata: {}
+model_name: BSJCode
+python_version: py311
+requirements: 
+  - torch
+  - transformers
+  - accelerate>=0.26.0
+  - bitsandbytes
+resources:
+  accelerator: A100              
+  cpu: '2'                        
+  memory: 16Gi                     
+  use_gpu: true 
+secrets:
+  hf_access_token: null
+system_packages: []
